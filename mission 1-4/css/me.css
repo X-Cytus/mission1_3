@@ -1,0 +1,35 @@
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	overflow: auto;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+}
+.div{
+	height: 200px;
+	width: 400px;
+	background: #ccc;
+}
+.left{
+	background: #fc0;
+	width: 50px;
+	height: 50px;
+	border-radius: 0 0 50px 0;
+	position: absolute;
+
+}
+.right{
+	background: #fc0;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px 0 0 0;
+	position: relative;
+	left: 350px;
+	top: 150px;;
+
+
+}
